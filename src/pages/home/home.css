@@ -9,6 +9,8 @@
   .main__header-content h4{
     margin-bottom: 1rem;
     color: var(--color-secondary);
+    display: inline-flex;
+    gap: 1rem;
   }
 
   .main__header-content h1{

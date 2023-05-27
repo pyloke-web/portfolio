@@ -10,7 +10,7 @@ export const links = [
         path: '/'
     },
     {
-        name: "Resume",
+        name: "About Me",
         path: '/resume'}
 ]
 

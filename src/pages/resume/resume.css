@@ -1,27 +1,24 @@
 
-.resume__container {
-    width: 100%;
-}
 
 .resume__container h5 {
-    margin-top: 6rem;
+    margin-top: 7rem;
     font-size: 2rem;
     margin-bottom: -1.5rem;
 }
 
 .education {
     margin-top: 1rem;
-    padding: 2rem 5rem;
+    padding: 1.5rem 9rem;
     background-color: var(--color-gray-500);
     display: flex;
-    flex-direction: column;
     border-radius: 2rem;
+    flex-wrap: wrap;
 }
 
 .resume__header {
-    display: grid;
-    grid-template-columns: .1fr 1fr;
+    display: flex;
     align-items: baseline;
+    gap: 1rem;
 }
 
 .education h4{
