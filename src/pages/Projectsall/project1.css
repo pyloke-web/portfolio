@@ -27,6 +27,10 @@
 }
 
 @media screen and (max-width: 600px) {
+    .resume__container {
+        margin-top: 13rem;
+    }
+
     .article__article {
         display: flex;
         justify-items: center;

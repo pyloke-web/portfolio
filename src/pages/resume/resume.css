@@ -61,9 +61,18 @@
 } 
 
 @media screen and (max-width: 600px) {
+    .resume__container{
+        margin-top: -0.3rem;
+    }
+
+    .resume__container h5{
+        display:none;
+    }
+    
     .education{
-        padding: 2.5rem 0rem;
+        padding: 2rem 0rem;
         justify-content: center;
+        width: 90%;
     }
 
     .education__wrapper{
