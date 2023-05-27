@@ -249,6 +249,7 @@
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 1024px) {
+   
     .main__header{
         margin-top: -3rem ;
         overflow: auto;
@@ -298,13 +299,39 @@
 
 @media screen and (max-width: 600px) {
     /*MAIN HEADER*/
+
+
     .main__header{
-        height: fit-content;
-        margin-top: 0;
+        display: flex;
         height: 100vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        margin-top: -10rem;
     }
 
-    
+    .main__header-content{
+        display: flex;
+        width: 80%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .main__header-content h4 {
+        display: none;
+    }
+
+    .social__account a {
+        padding: 0.3rem;
+      }
+      
+  .social__account svg{
+    height: 1.5rem;
+    width: auto;
+  }
+
     .main__header-container h4{
         font-size: 0.9rem;
     }
@@ -333,4 +360,73 @@
         left: 2rem;
     }
 
+    .work {
+        margin-top: 47rem;
+    }
+
+    .work__head {
+        display: contents;
+    }
+
+    .work__wrapper{
+        display: flex;
+        width: 80%;
+        margin-top: 125rem;
+        gap: 2rem;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    
+    .cardproject img {
+    width: 13rem;
+    height: auto;
+  }
+  
+  .cardproject h5 {
+    padding: 0;
+  }
+
+  .cardproject h4 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .recentproject {
+    display: grid;
+    margin-top: -3rem;
+  }
+
+    .recentprojects__wrapper{
+        display: flex;
+        position: inherit;
+        width: 100%;
+        gap: 2rem;
+        flex-direction: column;    
+    }
+
+    .projects{
+        margin-top: 90rem;
+    }
+
+    .project{
+        position: absolute;
+        margin-top: -3rem!important;
+        display: grid!important;
+        width: 100vw!important;
+    }
+
+    .project__wrapper{
+        display: flex;
+        width: 100%;
+        gap: 2rem;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .project {
+        width: fit-content;
+        position: absolute;
+        margin-top: 20rem;
+      }
+    
 }
