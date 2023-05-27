@@ -62,18 +62,25 @@
 
 @media screen and (max-width: 600px) {
     .resume__container{
-        margin-top: -0.3rem;
+        margin-top: 19rem;
     }
 
     .resume__container h5{
-        display:none;
+        font-size: 1.7rem;
     }
-    
+
+    .education__wrapper h5{
+        font-weight: 400;
+        color: var(--color-gray-200);
+    }
+
     .education{
         padding: 2rem 0rem;
         justify-content: center;
         width: 90%;
+        margin-bottom: 5rem;
     }
+    
 
     .education__wrapper{
         display: grid;
