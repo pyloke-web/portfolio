@@ -1,0 +1,27 @@
+.article-container{
+    position: absolute;
+    top: 0;
+    right:0;
+    left: 0;
+}
+.article-container h2 {
+    font-size: 3rem;
+    margin-top: 8rem;
+}
+
+.article-container p {
+    margin: 1rem 0rem;
+    font-size: 1.2rem;
+    width: 90%;
+    color: var(--color-gray-100);
+}
+
+.article-container img {
+    width: 50rem;
+    height: auto;
+}
+
+.article-container h5 {
+    margin-top: 3rem;
+    font-size: 2rem;
+}

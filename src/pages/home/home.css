@@ -1,0 +1,334 @@
+.main__header {
+    display: block;
+    grid-template-columns: 1fr;
+    align-content: center;
+    text-align: center;
+    margin-top: 50rem;
+}
+
+  .main__header-content h4{
+    margin-bottom: 1rem;
+    color: var(--color-secondary);
+  }
+
+  .main__header-content h1{
+    margin-bottom: 1rem;
+  }
+
+
+  .main__header-content p{
+    width: 60%;
+    margin: 0 auto;
+    line-height: 1.7rem;
+  }
+
+  .social__account {
+    margin-top: 1.5rem;
+    align-items: center;
+  }
+
+  .social__account a {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.7rem;
+    border: 1px solid transparent;
+    border-radius: 0.6rem;
+    background: var(--color-gray-100);
+    transition: var(--transition);
+  }
+
+  .social__account a + a {
+    margin-left: 1rem;
+  }
+
+  .social__account a svg{
+    color: var(--color-gray-600);
+  }
+
+  .social__account a:hover {
+    border-color: var(--color-gray-100);
+    background: transparent;
+}
+
+.social__account a:hover svg{
+    color: var(--color-gray-100);
+}
+
+.main__header-circle {
+    width: 10rem;
+    height: 10rem;
+    background: linear-gradient(75deg,var(--color-secondary), transparent);
+    border-radius: 50%;
+    position: absolute;
+    top:23rem;
+    left: 3rem;
+    transition: var(--transition);
+    filter: blur(15px);
+}
+
+.main__header-circle2 {
+    width: 25rem;
+    height: 25rem;
+    background: linear-gradient(75deg,var(--color-secondary), transparent);
+    border-radius: 50%;
+    position: absolute;
+    top: -12rem;
+    filter: blur(15px);
+    right: 2rem;
+    filter: blur(15px);
+    transition: var(--transition);
+}
+
+.main__header-circle3 {
+    width: 10rem;
+    height: 10rem;
+    background: linear-gradient(75deg,var(--color-secondary), transparent);
+    border-radius: 50%;
+    position: absolute;
+    filter: blur(15px);
+    top: 16rem;
+    right: 4rem;
+    transition: var(--transition);
+    display: absolute;
+}
+
+
+/*WORK*/
+.work {
+    margin-top: 1rem;
+    margin-bottom: 5rem; 
+}
+
+.work__wrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+    margin-top: 4rem;
+}
+
+
+/*RECENT*/
+.recentprojects h1 {
+    justify-content: center;
+    display: flex;
+    margin-bottom: -5rem;
+}
+
+.recentprojects__container {
+    margin-top: 100px;
+    justify-content: center;
+    display: flex;
+}
+
+.recentproject{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    right: 0;
+    left: 0;
+    width: 100vw;
+}
+
+.recentprojects__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    margin-top: 4rem;
+}
+
+.recentproject img {
+    width:20rem;
+    height:auto;
+}
+
+
+.recentprojects__wrapper h4 {
+    margin-top: 0.8rem;
+    font-size: 1.3rem;
+}
+
+.recentprojects__wrapper h5 {
+    font-weight: 300;
+    margin-top: .5rem;
+    padding: 0rem 2rem;
+    letter-spacing: .02rem;
+    line-height: 1.3rem;
+    margin-bottom: 1rem;
+}
+
+.recentprojects__wrapper p {
+    font-weight: 3;
+    display: inline-block;
+    padding: 0.1rem;
+    font-weight: 400;
+    background: var(--color-gray-600);
+    border-radius: 1rem;
+    width: 70%;
+    margin-bottom: rem;
+    transition: var(--transition);
+}
+
+.recentprojects__wrapper h6 {
+    font-size: 1rem;
+    margin-bottom: .2rem;
+    font-weight: 200;
+    color: var(--color-gray-300);
+}
+
+
+
+/*PROJECTS*/
+.projects h1 {
+    justify-content: center;
+    display: flex;
+    margin-bottom: -5rem;
+    margin-top: 40rem;
+}
+
+.project__container {
+    margin-top: 100px;
+    justify-content: center;
+    display: flex;
+}
+
+.project{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    right: 0;
+    left: 0;
+    width: 100vw;
+}
+
+.project__wrapper {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    margin-top: 4rem;
+}
+
+.project__wrapper img{
+    height: auto;
+    width: 20rem;
+    margin-top: 1rem;
+}
+
+.project__wrapper h4 {
+    margin-top: 0.4rem;
+    font-size: 1.3rem;
+}
+
+.project__wrapper h5 {
+    font-weight: 300;
+    margin-top: .5rem;
+    padding: 0rem 2rem;
+    letter-spacing: .02rem;
+    line-height: 1.3rem;
+}
+
+.project__wrapper p {
+    font-weight: 3;
+    display: inline-block;
+    padding: 0.1rem;
+    font-weight: 400;
+    background: var(--color-gray-600);
+    border-radius: 1rem;
+    width: 70%;
+    margin-bottom: .5rem;
+    transition: var(--transition);
+}
+
+.project__wrapper h6 {
+    font-size: 1rem;
+    margin-bottom: .2rem;
+    font-weight: 200;
+    color: var(--color-gray-300);
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1024px) {
+    .main__header{
+        height: fit-content;
+        margin-top: -3rem ;
+        overflow: auto;
+    }
+
+    .main__header-container h4{
+        font-size: 1.5rem;
+    }
+
+    .main__header-container h1{
+        font-size: 4rem;
+    }
+
+    .main__header-container p{
+        font-size: 1.3rem;
+    }
+
+    .social__account a{
+        padding: 0.9rem;
+    }
+
+    .social__account a svg{
+        font-size: 1.8rem;
+    }
+
+    .main__header-circle{
+        width: 18rem;
+        height: 18rem;
+    }
+
+    .main__header-circle2 {
+        position: absolute;
+        width: 8rem;
+        height: 8rem;
+        top: 12rem;
+        right: 3rem;
+    }
+
+    .main__header-circle3 {
+        position: absolute;
+        width: 5rem;
+        height: 5rem;
+        top: 11rem;
+        right: 11rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    /*MAIN HEADER*/
+    .main__header{
+        margin-top: 0;
+        height: 100vh;
+    }
+
+    
+    .main__header-container h4{
+        font-size: 0.9rem;
+    }
+
+    .main__header-container h1{
+        font-size: 1.8rem;
+        position: relative;
+    }
+
+    .main__header-container p{
+        font-size: 1rem;
+        position: relative;
+        width: 100%;
+    }
+    
+    .main__header-circle {
+        display: none;
+    }
+
+    .main__header-circle2 {
+        top:4rem;
+    }
+
+    .main__header-circle3 {
+        top: 40rem;
+        left: 2rem;
+    }
+
+}
