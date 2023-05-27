@@ -25,11 +25,12 @@ const Resume = () => {
             <h5><MdNavigateNext/>University of London, London School of Economics academic direction </h5>
             <h6>BSc Data Science and Business Analytics (Hons) | Graduation: May 2024</h6>
             <h5><MdNavigateNext/>University of West London</h5>
-            <h6>Diploma of the London College of Music | Graduation: May 2024</h6>
-            <h5><MdNavigateNext/> Taylor's College Lakeside Campus, Malaysia 	</h5>
-            <h6>Cambridge A-levels </h6>
+            <h6>Diploma of the London College of Music | Present </h6>
             <h5><MdNavigateNext/>Stamford Raffles College, Singapore</h5>
             <h6>Executive Diploma in Management</h6>
+            <h5><MdNavigateNext/> Taylor's College Lakeside Campus, Malaysia 	</h5>
+            <h6>Cambridge A-levels | 2A* 2A </h6>
+            
             </div>
         </div>
     </div>
