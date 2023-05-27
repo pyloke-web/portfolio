@@ -309,7 +309,7 @@
         left: 0;
         right: 0;
         width: 100vw;
-        margin-top: -10rem;
+        margin-top: -2rem;
     }
 
     .main__header-content{
@@ -356,12 +356,12 @@
     }
 
     .main__header-circle3 {
-        top: 40rem;
+        top: 25rem;
         left: 2rem;
     }
 
     .work {
-        margin-top: 47rem;
+        margin-top: 62rem;
     }
 
     .work__head {
