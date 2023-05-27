@@ -248,7 +248,6 @@
 /* MEDIA QUERIES */
 @media screen and (max-width: 1024px) {
     .main__header{
-        height: fit-content;
         margin-top: -3rem ;
         overflow: auto;
     }
@@ -298,6 +297,7 @@
 @media screen and (max-width: 600px) {
     /*MAIN HEADER*/
     .main__header{
+        height: fit-content;
         margin-top: 0;
         height: 100vh;
     }
