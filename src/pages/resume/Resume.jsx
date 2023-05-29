@@ -5,6 +5,8 @@ import {MdNavigateNext} from 'react-icons/md'
 import {SlSocialGithub} from 'react-icons/sl'
 import {FaLinkedin} from 'react-icons/fa'
 import {MdEmail} from 'react-icons/md'
+import {FaKaggle} from 'react-icons/fa'
+
 
 const Resume = () => {
   return (
@@ -13,6 +15,7 @@ const Resume = () => {
         <div className="social__account">
             <a href="https://github.com/pyloke-web" target='_blank'rel='noreferrer noopener'><FaLinkedin/> </a>
             <a href="https://www.linkedin.com/in/lokepak-yen/" target='_blank'rel='noreferrer noopener'><SlSocialGithub/></a>
+            <a href="https://www.kaggle.com/pakyenn/code" target='_blank'rel='noreferrer noopener'><FaKaggle/></a>
             <a href = "mailto: pakyenloke@gmail.com"><MdEmail/></a>
         </div>
         <div className="education">

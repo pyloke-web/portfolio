@@ -2,6 +2,7 @@ import {Link} from 'react-router-dom'
 import {SlSocialGithub} from 'react-icons/sl'
 import {FaLinkedin} from 'react-icons/fa'
 import {MdEmail} from 'react-icons/md'
+import {FaKaggle} from 'react-icons/fa'
 import {MdOutlineWavingHand} from 'react-icons/md'
 
 const MainHeader = () => {
@@ -18,6 +19,7 @@ const MainHeader = () => {
         <div className="social__account">
             <a href="https://github.com/pyloke-web" target='_blank'rel='noreferrer noopener'><FaLinkedin/> </a>
             <a href="https://www.linkedin.com/in/lokepak-yen/" target='_blank'rel='noreferrer noopener'><SlSocialGithub/></a>
+            <a href="https://www.kaggle.com/pakyenn/code" target='_blank'rel='noreferrer noopener'><FaKaggle/></a>
             <a href = "mailto: pakyenloke@gmail.com"><MdEmail/></a>
         </div>
         <div className="main__header-circle"></div>
