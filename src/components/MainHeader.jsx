@@ -13,7 +13,7 @@ const MainHeader = () => {
       <div className="main__header-circle3"></div>
         <h4>REACT PORTFOLIO</h4>
         <h1>Hello, I'm Yen  <MdOutlineWavingHand/></h1>
-        <p>Hey there, I am an undergrad student with a background in psychology, data science and business analytics with a passion towards the intersections of people and technology. This is a portfolio of the work I've done throughout the years!
+        <p>Heyya! I am a student wiht a background in psychology, data science and business analytics with a passion towards the intersections of people and technology. This is a portfolio of the work I've done - scroll to explore!
         </p>
         <div className="social__account">
             <a href="https://github.com/pyloke-web" target='_blank'rel='noreferrer noopener'><FaLinkedin/> </a>

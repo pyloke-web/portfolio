@@ -55,6 +55,7 @@ const Project11 = require('./images/Project11.jpg')
 const Project12 = require('./images/Project12.jpg')
 const Project13 = require('./images/Project13.jpg')
 const Project14 = require('./images/Project14.jpg')
+const Project15 = require('./images/Project15.png')
 
 export const recentprojects = [
     {
@@ -87,6 +88,14 @@ export const recentprojects = [
 ]
 
 export const projects = [
+    {
+        id:15,
+        image: Project15,
+        title: "Job Board Phone App",
+        info: "A functional app for job applicants to search for latest full-time, part-time and contracting job; made with React Native and RapidAPI",
+        method: "Programming",
+        tag: "React Native",
+    },
     {
         id: 9,
         image: Project9,
