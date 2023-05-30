@@ -3,7 +3,7 @@
     grid-template-columns: 1fr;
     align-content: center;
     text-align: center;
-    margin-top: 50rem;
+    margin-top: 10rem;
 }
 
   .main__header-content h4{
@@ -97,7 +97,7 @@
 
 /*WORK*/
 .work {
-    margin-top: 1rem;
+    margin-top:1rem;
     margin-bottom: 5rem; 
 }
 
@@ -304,13 +304,13 @@
 
     .main__header{
         display: flex;
-        height: 100vh;
+        height: 85%;
         position: absolute;
         top: 0;
         left: 0;
         right: 0;
         width: 100vw;
-        margin-top: -2rem;
+        margin-top: 0rem;
     }
 
     .main__header-content{
@@ -362,7 +362,7 @@
     }
 
     .work {
-        margin-top: 62rem;
+        margin-top: 125%;
     }
 
     .work__head {
@@ -372,7 +372,6 @@
     .work__wrapper{
         display: flex;
         width: 90%;
-        margin-top: 125rem;
         gap: 2rem;
         justify-content: space-between;
         flex-direction: column;

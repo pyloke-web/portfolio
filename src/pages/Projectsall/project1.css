@@ -28,7 +28,11 @@
 
 @media screen and (max-width: 600px) {
     .resume__container {
-        margin-top: 13rem;
+        margin-top: 8rem!important;
+    }
+
+    .resume__container h5 {
+        margin-top: 0!important ;
     }
 
     .article__article {
