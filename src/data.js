@@ -213,7 +213,7 @@ export const projects = [
 export const article = [
     {
         image:Project1,
-        title: "Auto Machine Learning App",
+        title: "AutoML Analytics App",
         info: "A basic analytics web app that allows users to analyse, visualise and expore data, and run regression models automatically.",
         summary: "In today's data-driven world, having a reliable and efficient data analytics tool is crucial for businesses and data enthusiasts. This project introduces a simple yet powerful web application project built using Streamlit. The tool allows users to perform data manipulation, analysis, visualization, and automatic machine learning using regression models. With its user-friendly interface, this tool opens up a world of possibilities for exploring datasets and deriving valuable insights.",
         problem: "Data analysis and machine learning can often be complex and time-consuming tasks, requiring expertise in programming and statistical modeling. Additionally, the process of preprocessing data, visualizing it, and selecting the best regression model for predictions can be overwhelming. The challenge lies in finding a way to simplify these processes and make them accessible to users with varying levels of technical knowledge.",
