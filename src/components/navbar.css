@@ -51,10 +51,9 @@ nav {
 
 @media screen and (max-width: 600px) {
 .nav__links {
-    padding: 0rem 8rem;
+    padding: .3rem .5rem!important;
     justify-content: center;
-    padding: 0 1rem;
-    width: 55%;
+    width: 60%;
 }
 
 }
