@@ -5,9 +5,11 @@ import Project2 from './pages/Projectsall/Project2'
 import Project3 from './pages/Projectsall/Project3'
 import Navbar from './components/Navbar'
 import Resume from './pages/resume/Resume'
+import { Analytics } from '@vercel/analytics/react';
 
 const App = () => {
     return (
+      <>
       <BrowserRouter>
       <Navbar/>
       <Routes>
@@ -18,6 +20,8 @@ const App = () => {
         <Route path='/resume' element={<Resume/>} />
       </Routes>
       </BrowserRouter>
+      <Analytics />
+      </>
       )
 }
 
