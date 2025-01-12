@@ -14,7 +14,7 @@ const MainHeader = () => {
       <div className="main__header-circle3"></div>
         <h4>REACT PORTFOLIO</h4>
         <h1>Hello, I'm Yen  <MdOutlineWavingHand/></h1>
-        <p>Heyya! I am a student with a background in psychology, data science and business analytics with a passion towards the intersections of people and technology. This is a portfolio of the work I've done - scroll to explore!
+        <p>Hey! I have an academic background in psychology and data science and am passionate about the intersections of people and technology. I currently work in public policy, but have a wide range of epxerience including web development, design, and analytics. This is a consolidation of some of the work I've done - scroll to explore!
         </p>
         <div className="social__account">
             <a href="https://github.com/pyloke-web" target='_blank'rel='noreferrer noopener'><FaLinkedin/> </a>

@@ -37,7 +37,7 @@ export const programs = [
         id: 4,
         icon: <MdComputer/>,
         title: "Front-end Development",
-        info: "Led web development projects, and provided technical support for front-end development",
+        info: "Led project and provided technical support for front-end development",
     }
 ]
 
@@ -56,6 +56,16 @@ const Project12 = require('./images/Project12.jpg')
 const Project13 = require('./images/Project13.jpg')
 const Project14 = require('./images/Project14.jpg')
 const Project15 = require('./images/Project15.png')
+const Project16 = require('./images/Project16.jpg')
+const Project17 = require('./images/Project17.png')
+const Project18 = require('./images/Project18.jpg')
+const Project19 = require('./images/Project19.png')
+const Project20 = require('./images/Project20.png')
+const Project21 = require('./images/Project21.jpg')
+const Project22 = require('./images/Project22.jpg')
+const Project23 = require('./images/Project23.png')
+const Project24 = require('./images/Project24.png')
+
 
 export const recentprojects = [
     {
@@ -89,52 +99,148 @@ export const recentprojects = [
 
 export const projects = [
     {
-        id:15,
-        image: Project15,
-        title: "Job Board Phone App",
-        info: "A functional app for job applicants to search for latest full-time, part-time and contracting job; made with React Native and RapidAPI",
+        id:17,
+        image: Project17,
+        title: "Healthcare Financing Analysis",
+        info: "Studied government spending on healthcare, funding sources and functional breakdown.",
+        method: "Policy Analysis",
+        tag: "Python",
+        path: 'https://www.kaggle.com/code/pakyenn/malaysia-solar-panel-rooftops',
+    },
+    {
+        id:24,
+        image: Project24,
+        title: "Renewable Energy Analysis",
+        info: "Explored feasibilities of Solar Panel Rooftop projects, implication of government incentives and environmental impact.",
+        method: "Policy Analysis",
+        tag: "Python",
+        path: 'https://www.kaggle.com/code/pakyenn/malaysia-solar-panel-rooftops',
+    },
+    {
+        id:22,
+        image: Project22,
+        title: "State Election Analysis",
+        info: "Examined demographic representation and winning chance and disparities in competition between state assemblies.",
+        method: "Electoral Analysis",
+        tag: "Python",
+        path: 'https://www.linkedin.com/posts/lokepak-yen_the-prn15-vote-reflecting-on-2023-i-activity-7149692990083481600-86ft?utm_source=social_share_send&utm_medium=member_desktop_web',
+    },
+    {
+        id:16,
+        image: Project16,
+        title: "Cluster Analysis of Global Fertility Trends",
+        info: "Examined fertility trends using K-Means Clustering and evaluating its influence on the economy.",
+        method: "Unsupervised Learning",
+        tag: "Python",
+        path: 'https://www.linkedin.com/posts/lokepak-yen_fertility-economy-a-key-takeaway-activity-7270999481121202176-q8KW?utm_source=social_share_send&utm_medium=member_desktop_web',
+    },
+    {
+        id: 19,
+        image: Project19,
+        title: "AI Journaling App",
+        info: "A journal app that allows user to log information that is automatically analysed to determine sentiment score.",
         method: "Programming",
-        tag: "React Native",
+        tag: "React",
+        path: "https://journal-app-eight-taupe.vercel.app/",
     },
     {
         id: 9,
         image: Project9,
         title: "Electorial Data Analysis",
-        info: "An exploratory data analysis of voter turnout, majority and returned votes by state and parliament.",
-        method: "Data Analysis",
+        info: "Examined voter turnout, majority and returned votes by state and parliament.",
+        method: "Electoral Analysis",
         tag: "Python",
+        path: "https://www.kaggle.com/code/pakyenn/malaysia-general-election-2022-data-exploration/notebook",
+    },
+    {
+        id: 1,
+        image: Project1,
+        title: "Auto Machine Learning App",
+        info: "An analytics web app that allows users to analyse, visualise and expore data, and run regression models automatically.",
+        method: "Programming",
+        tag: "Streamlit",
+        path: "https://www.linkedin.com/posts/lokepak-yen_automated-machine-learning-automatically-activity-7066966273670197248-8p5m?utm_source=social_share_send&utm_medium=member_desktop_web",
     },
     {
         id: 10,
         image: Project10,
         title: "Stock Price Prediction",
-        info: "An exploratory automative stock market analysis of the KLSE market and prediction using LSTM.",
-        method: "Data Analysis & Prediction",
+        info: "Exploratory stock market analysis and prediction using long short-term memory on the Kuala Lumpur Stock Exchange.",
+        method: "Supervised Learning",
         tag: "Python",
-    },
-    {
-        id: 4,
-        image: Project4,
-        title: "React Gym Portfolio Website",
-        info: "A portfolio website for a fitness company developed using React.",
-        method: "Programming",
-        tag: "React",
-    },
-    {
-        id: 2,
-        image: Project2,
-        title: "Behavioural Experiment",
-        info: "An attentional bias visual cue experiement with Vernier Discrimination Task for upright and inverted faces built.",
-        method: "Programming",
-        tag: "Matlab",
+        path: "https://www.kaggle.com/code/pakyenn/klse-stock-market-analysis-prediction-using-lstm",
     },
     {
         id: 3,
         image: Project3,
         title: "Population Density Mapping",
-        info: "An exploratory geospatial visualisation project of population density by legislative state assembly.",
+        info: "Geospatial visualisation project of population density by legislative state assembly.",
         method: "Geospatial Analysis",
         tag: "QGIS",
+        path: "https://www.linkedin.com/posts/lokepak-yen_what-is-the-population-distribution-like-activity-7063351078485983232-nbB4?utm_source=social_share_send&utm_medium=member_desktop_web",
+    },
+    {
+        id: 6,
+        image: Project6,
+        title: "Distribution of Apartment Rent",
+        info: "Geospatial visualisation of apartment rent prices in Kuala Lumpur and Selangor, Malaysia.",
+        method: "Geospatial Analysis",
+        tag: "QGIS",
+        path: "https://www.canva.com/design/DAFiz6ZUHrI/x5tjYz4F9D09J0kct7zlRg/edit?utm_content=DAFiz6ZUHrI&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+    },
+    {
+        id: 7,
+        image: Project7,
+        title: "Flight Data Analysis",
+        info: "An exploratory data analysis of distribution of flights across US airports over time with 28 million data.",
+        method: "Big Data Analysis",
+        tag: "Python & R",
+        path: "https://docs.google.com/document/d/1Vic8QtQrY0Pgkvt7L7RDZg_UKvhOqfStP2mi1fVt4zM/edit?usp=sharing",
+    },
+    {
+        id: 8,
+        image: Project8,
+        title: "Exchange Rate Visualisation",
+        info: "An exploratory data visualisation of exchange rates over time with interactive widgets.",
+        method: "Time Series Analysis",
+        tag: "Python",
+        path: "https://www.kaggle.com/code/pakyenn/malaysian-daily-exchange-rate-eda-arima",
+    },
+    {
+        id: 11,
+        image: Project11,
+        title: "AI model Application",
+        info: "Application of mental health-related pre-trained HuggingFace models for sentiment analysis and diagnosis prediction.",
+        method: "Natural Language Processing",
+        tag: "HuggingFace",
+        path: "https://www.kaggle.com/code/pakyenn/mental-health-with-hugging-face-pre-trained-models",
+    },
+]
+
+export const projects2 = [
+    {
+        id: 4,
+        image: Project4,
+        title: "Portfolio Website",
+        info: "Professional portfolio website for a fitness company developed using React.",
+        method: "Programming",
+        tag: "React",
+    },
+    {
+        id:23,
+        image: Project23,
+        title: "Policy Data Analysis",
+        info: "Analyzed political campaign feedback that contributed to shaping a political party's manifesto.",
+        method: "Data Analysis",
+        tag: "Python",
+    },
+    {
+        id: 2,
+        image: Project2,
+        title: "Behavioural Science Experiment",
+        info: "An attentional bias visual cue experiement with Vernier Discrimination Task for upright and inverted faces built using Matlab.",
+        method: "Programming",
+        tag: "Matlab",
     },
     {
         id: 5,
@@ -145,36 +251,12 @@ export const projects = [
         tag: "Tableau",
     },
     {
-        id: 6,
-        image: Project6,
-        title: "DIstribution of Apartment Rent",
-        info: "A geospatial visualisation of apartment rent prices in Kuala Lumpur and Selangor, Malaysia.",
-        method: "Geospatial Analysis",
-        tag: "QGIS",
-    },
-    {
-        id: 7,
-        image: Project7,
-        title: "Analysis of Plane Data",
-        info: "An exploratory data analysis of distribution of flights across US airports over time with 28 million data.",
-        method: "Big Data Analysis",
-        tag: "Python & R",
-    },
-    {
-        id: 8,
-        image: Project8,
-        title: "Exchange Rate Visualisation",
-        info: "An exploratory data visualisation of exchange rates over time with interactive widgets.",
-        method: "Time Series Analysis",
-        tag: "Python",
-    },
-    {
-        id: 11,
-        image: Project11,
-        title: "AI model Application",
-        info: "Application of mental health-related pre-trained HuggingFace models for sentiment analysis and diagnosis prediction.",
-        method: "Natural Language Processing",
-        tag: "HuggingFace",
+        id:15,
+        image: Project15,
+        title: "Job Board Phone App",
+        info: "Functional app for job applicants to search for latest full-time, part-time and contracting job; made with React Native and RapidAPI",
+        method: "Programming",
+        tag: "React Native",
     },
     {
         id: 12,
@@ -183,14 +265,6 @@ export const projects = [
         info: "An event website with information, event highlights, and registration forms.",
         method: "Front-end Web",
         tag: "Wix",
-    },
-    {
-        id: 1,
-        image: Project1,
-        title: "Auto Machine Learning App",
-        info: "A basic analytics web app that allows users to analyse, visualise and expore data, and run regression models automatically.",
-        method: "Programming",
-        tag: "Streamlit",
     },
     {
         id: 13,
